@@ -1,1 +1,24 @@
-<p>heroe works!</p>
+<h1 class="animated fadeIn">{{ heroe.nombre }} <small>Fecha de aparicion {{heroe.aparicion}}</small></h1>
+
+<hr>
+<div class="row aniated fadeIn fast">
+    <div class="col-md-4 text-center">
+        <img src="{{ heroe.img }}" alt="Imagen de heroe" class="img-fluid">
+        <br><br>
+        <a class="btn btn-outline-danger btn-block" [routerLink]="['/heroes']">Regresar</a>
+
+    </div>
+
+    <div class="col-md-8 ">
+        <h3>{{ heroe.nombre }}</h3>
+        <hr>
+        <p>Biografía: {{ heroe.bio }}</p>
+        <div>
+
+        </div>
+
+    </div>
+
+
+
+</div>
