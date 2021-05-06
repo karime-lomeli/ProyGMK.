@@ -54,7 +54,28 @@ export class HeroeService {
       img: "./assets/img/wolverine.png",
       aparicion: "1974-11-01",
       casa: "Marvel"
-    }
+    },
+    {
+      nombre: "Robin",
+      bio: "Aunque Robin técnicamente no posee poderes sobrehumanos verdad, su coraje, habilidad, experiencia, determinación y habilidades personales son suficientes para hacer de él un adversario muy temible incluso para aquellos con habilidades sobrehumanas. Después de haber sufrido un régimen de entrenamiento, evidentemente, vigorosa e intensa en Batman, tal vez la mayoría de los expertos del mundo mano a mano combatiente.",
+      img: "./assets/img/robin.png",
+      aparicion: "1940-04-01",
+      casa: "DC"
+    },
+    {
+      nombre: "Supergirl",
+      bio: "Supergirl adquiere poderes idénticos a los de Superman y adopta la identidad secreta de Linda Lee. Al igual que Superman, ella comparte vulnerabilidad a la Kryptonita, pero habilidades como super velocidad, vuelo, invulnerabilidad, visión de calor,  Infrarroja, telescópica, super oído, entre muchos otros grandes super poderes.",
+      img: "./assets/img/supergirl.png",
+      aparicion: "1959-05-01",
+      casa: "DC"
+    },
+    {
+      nombre: "Sr. Fantástico",
+      bio: "Reed Richards, quien obtuvo superpoderes tras la exposición a rayos cósmicos durante una misión científica al espacio exterior, es un genio científico y líder del equipo, quien puede estirar su cuerpo en longitudes y formas increíbles.",
+      img: "./assets/img/fantastico.png",
+      aparicion: "1961-11-01",
+      casa: "Marvel"
+    },
 
   ];
 
