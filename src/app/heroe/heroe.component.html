@@ -13,9 +13,18 @@
         <h3>{{ heroe.nombre }}</h3>
         <hr>
         <p>Biografía: {{ heroe.bio }}</p>
+
         <div>
+            <ng-container *ngIf="heroe.casa === 'Marvel'; else dc">
+                <img src="./assets/img/marvel.jpg" alt="Imagen de Marvel" class="img-fluid">
+            </ng-container>
+
+            <ng-template #dc>
+                <img src="./assets/img/DC.jpg" alt="Imagen de DC">
+            </ng-template>
 
         </div>
+
 
     </div>
 
