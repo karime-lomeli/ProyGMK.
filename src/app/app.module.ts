@@ -10,6 +10,8 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeroeService } from './shared/heroe.service';
+import { VideoComponent } from './video/video.component';
+import { DomseguroPipe } from './domseguro.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { HeroeService } from './shared/heroe.service';
     HeroeComponent,
     HeroesComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    VideoComponent,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,
