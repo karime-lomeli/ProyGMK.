@@ -2,3 +2,10 @@ img {
     max-width: 200px;
     max-height: 150px;
 }
+
+
+
+.imagen, h3, p{
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 12px;
+}
